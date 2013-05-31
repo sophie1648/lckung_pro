@@ -1,0 +1,122 @@
+html {
+	background: url('/public/photos/bg.png') center 0 repeat;
+	background-position: fixed;
+}
+
+/*以下登入前*/
+.bar{
+	color: white;
+	background-color: #666;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	padding: 10px 0 5px;
+}
+
+.title{
+	font-size: 30px;
+	margin: -3px auto 3px 6px;
+	display: inline-block;
+}
+
+form{
+	margin: 0px;
+	display: inline;
+}
+.login,.toolBar {
+	float: right;
+	
+}
+
+.toolBar{
+	margin-top: 4px;
+	margin-right: 20px;
+}
+
+.login{
+	margin-top: 3px;
+	margin-right: 10px;
+}
+
+.id{
+	color: #F8C3CD;
+	margin: auto 5px;
+}
+
+.loginLogo{
+	display: inline;
+}
+
+input[name='id']{
+	display: inline;
+}
+
+.loginForm>input[name='id'], .loginForm>input[name='pw']{
+	margin-top: -10px; 
+}
+
+.reg{
+	text-align: center;
+	position: relative;
+	left: 50%;
+	top: 130px;
+	width: 330px;
+	background-color: #666;
+	padding: 100px 0px;
+	margin-left: -175px;
+	color: white;
+	font-size: 18px;
+	border-radius: 165px;
+}
+
+.regLogo{
+	font-size: 22px;
+}
+/*以下登入後*/
+
+.logSuccess{
+	text-align: center;
+	position: relative;
+	left: 50%;
+	top: 135px;
+	width: 330px;
+	background-color: #666;
+	padding: 140px 0px;
+	margin-left: -170px;
+	color: #F8C3CD;
+	font-size: 40px;
+	border-radius: 165px;
+}
+
+a{
+	margin: 2px 5px;
+}
+
+a:link{
+	text-decoration: none;
+	color: white;
+}
+
+a:visited{
+	text-decoration: none;
+	color: white;
+}
+
+a:hover{
+	text-decoration: none;
+	color: white;
+}
+
+a:active{
+	text-decoration: none;
+	color: white;
+}
+
+.regForm>div:nth-child(1),.regForm>div:nth-child(2), .regForm>div:nth-child(3){
+	margin-left: 25px;
+}
+
+.regForm>div:nth-child(4){
+	margin-left: -10px;	
+}
